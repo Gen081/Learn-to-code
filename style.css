@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: "Poppins";
+}
+
+body{  
+  background-image: url(Pics/bg-intro-mobile.png);
+  background-color: hsl(0, 100%, 74%);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main{
+  padding: 40px 20px;
+}
+
+.left-content{
+  color: white;
+  margin-bottom: 20px;
+}
+
+.left-content > h2{
+  font-size: 32px;
+}
+
+.left-content > p{
+  font-size: 16px;
+}
+
+.blue-button{
+  background-color:hsl(248, 32%, 49%);
+  width: 100%;
+  margin:  10px auto;
+  padding: 10px;
+  color: white;
+  border-radius: 7px;
+  border:none;
+  box-shadow: 1px 5px rgb(201, 120, 120);
+}
+
+.form-wrap{  
+  background-color: white;
+  padding: 10px;
+  border-radius: 9px;
+  box-sizing: border-box;
+  text-align: center;   
+}
+
+.input{
+  height: 20px;
+  padding:8px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(219, 218, 218);
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.form-wrap #free{
+  padding: 10px 20px;
+  margin: 10px auto;
+  text-align: center;
+  vertical-align: middle;
+  background-color: hsl(154, 59%, 51%);
+  color: white;
+  font-size: 12px;
+  border-radius: 6px;
+}
+
+.form-wrap p{
+  font-size: 9px;
+  color:hsl(246, 25%, 77%);
+}
+
+/* Tablet View */
+@media only screen and (min-width:600px){
+  main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+  }
+  
+  main > div {
+    flex: 1;
+    margin: 8px;
+  }
+}
+
+
+/* Desktop View */
+@media only screen and (min-width:768px){
+  main {
+    padding: 100px;
+  }
+  
+  body{
+    background-image: url(Pics/bg-intro-desktop.png);
+  }
+  
+  .input{
+    width: 80%;
+    margin: 10px;
+    overflow: hidden;
+  }
+
+  .left-content > h2{
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 900;
+  }
+
+  .form-wrap #free{
+    width: 85%;
+  }
+  
+}
