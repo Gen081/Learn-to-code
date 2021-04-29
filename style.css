@@ -127,18 +127,7 @@ main{
     font-weight: 600;
     padding-left: 30px;
   }
-
-  /* .left-content > h2{
-    margin-bottom: 20px;
-    font-size: 40px;
-    font-weight: 900;
-  } */
   
-  .form-wrap{
-    /* padding-top: 1em;
-    padding-bottom: 1em; */
-  }
-
   .form-wrap #free{
     width: 88%;
   }
@@ -148,6 +137,4 @@ main{
     color:hsl(0, 100%, 74%);
     font-weight: bolder;
   }
-
-
 }
